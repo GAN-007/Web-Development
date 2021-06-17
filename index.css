@@ -1,0 +1,51 @@
+*{
+	width: auto;
+	height:auto;
+}
+body{
+	height: auto;
+	width: auto;
+	animation-name : background;
+	animation-duration:120s;
+}
+@keyframes background {
+
+	from{ background-image: url("img12.jpg"); 
+	     }
+	     to{  background-image: url("img11.jpg"); }
+	     0%   {background-image: url("img12.jpg"); left:0px; top:0px;}
+  25%  {background-image: url("img12.jpg"); left:200px; top:0px;}
+  50%  {background-image: url("img11.jpg"); left:200px; top:200px;}
+  75%  {background-image: url("img12.jpg"); left:0px; top:200px;}
+  100% {background-image: url("img11.jpg"); left:0px; top:0px;}
+}
+
+.brick{
+	height: auto;
+	width: auto;
+	background-color: #fffff;
+	font-family:geneva;
+	margin: 10px 10px 10px 10px;
+padding: 10px 10px 10px 10px;
+	
+}
+.inverse{
+	height:300px;
+	width: 50%;
+padding-right: 20px;
+}
+.inverse-up{
+	.inverse{
+	height:300px;
+	width: 50%;
+padding-right: 20px;
+}
+}
+.inverse2{
+	height:auto;
+	width: 50%;
+padding-left: 50%;
+}
+button{
+
+}
